@@ -15,3 +15,15 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let longeur = 10
+let type = "string"
+let téléphone = "0612345678"
+
+if ((typeof téléphone) === "string") {
+    if (téléphone.length != 10) {
+        console.log("Numéro invalide")
+    }
+} else {
+    console.log("Numéro invalide")
+}
