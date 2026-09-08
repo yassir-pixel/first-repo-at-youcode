@@ -16,3 +16,11 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
+let string = "10"
+let number = 10
+
+console.log("comparaison faible : applique une convertion de type avant de faire la comparaison")
+console.log(string == number)
+
+console.log("comparaison stricte : L'égalité stricte compare deux valeurs et teste leur égalité. Aucune des valeurs n'est convertie implicitement en une autre valeur avant que la comparaison soit effectuée. Si les valeurs sont typées différemment, elles sont considérées comme différentes")
+console.log(string === number)

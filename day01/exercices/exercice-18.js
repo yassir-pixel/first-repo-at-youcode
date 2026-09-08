@@ -18,3 +18,28 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function isTriangleValide(a, b, c) {
+    let decision;
+    let coteC = a + b;
+    let coteB = a + c;
+    let coteA = b + c;
+
+    if (a < coteA) {
+        if (b < coteB) {
+            if (c < coteC) {
+                decision = "Triangle valide";
+                return decision;
+            }
+        }
+    }
+    decision = "Triangle non valide"
+    return decision
+}
+
+let a = 3;
+let b = 4;
+let c = 5;
+
+let decision = isTriangleValide(a, b, c);
+console.log(`${decision}`)

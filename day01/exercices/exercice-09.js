@@ -18,3 +18,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+let estAdmin = false;
+let estModerateur = true;
+let motDePasseValide = true;
+
+if (motDePasseValide === true) {
+    if (estModerateur === true || estAdmin === true) {
+        console.log("Accès Accordé")
+    }
+    else {
+        console.log("Accès Refusée")
+    }
+}
+else {
+    console.log("Accès Refusée")
+}

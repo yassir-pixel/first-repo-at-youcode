@@ -18,3 +18,21 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function applyReduction(value) {
+    value = value - (value * 0.1)
+    return value;
+}
+
+let price = 600
+
+if (price > 500) {
+    price = applyReduction(price)
+    console.log(`Coût final: ${price} MAD, Livraison: Gratuite`)
+} else {
+    if (price <= 200) {
+        console.log(`Coût final: ${price} MAD, Livraison: Payante`)
+    } else {
+        console.log(`Coût final: ${price} MAD, Livraison: Gratuite`)
+    }
+}

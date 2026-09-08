@@ -19,3 +19,36 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function isCommandeValidée(hasAccount, isGuest, cartValue, isBanned) {
+    let decision;
+    if (isBanned === true) {
+        decision = "Commande non validée"
+        return decision;
+    } else {
+        if (hasAccount === true || isGuest === true) {
+            if (hasAccount === true) {
+                decision = "Commande non validée"
+                return decision
+            } else if (isGuest === true && cartValue > 100) {
+                decision = "Commande validée"
+                return decision
+            } else {
+                decision = "Commande non validée"
+                return decision
+            }
+
+        } else {
+            decision = "Commande non validée"
+            return decision
+        }
+    }
+}
+
+let hasAccount = false;
+let isGuest = true;
+let cartValue = 150;
+let isBanned = false;
+
+let decision = isCommandeValidée(hasAccount, isGuest, cartValue, isBanned);
+console.log(`${decision}`)
