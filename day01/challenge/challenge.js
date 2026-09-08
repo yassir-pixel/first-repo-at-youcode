@@ -22,3 +22,32 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+function isEligibleUser(montant, duree, revenue) {
+    let value = revenue * 0.3
+    if ((montant / duree) < value)
+        return true;
+    else
+        return false;
+}
+
+let montantEmprunte = 100000;
+let dureeEnMois = 24;
+let revenueMensuel = 11000;
+
+let isEligible = isEligibleUser(montantEmprunte, dureeEnMois, revenueMensuel);
+
+if (isEligible == true) {
+    let mensualité = montantEmprunte / dureeEnMois
+    console.log(`Prêt accordé. Mensualité : ${mensualité} MAD`)
+} else {
+    if (revenueMensuel > 10000) {
+        let nouvelleDurée;
+        while (!isEligibleUser(montantEmprunte, dureeEnMois, revenueMensuel))
+            dureeEnMois += 1;
+        nouvelleDurée = dureeEnMois;
+        console.log(`Puisque votre revenue depasse 10000 vaut mieux augmenté votre durée de paiment a ${nouvelleDurée} mois`)
+    } else {
+        console.log("Prêt refusé")
+    }
+}
