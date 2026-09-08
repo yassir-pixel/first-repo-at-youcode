@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> Number , BigInt , String , Boolean , Null, Undefined, ??
 
 ---
 
@@ -71,7 +71,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> une valeur const n'est pas destinée a etre modifiée durant lexecution du programme et toute nouvelle assignation de valeur a ce type de variable genere une erreur TypeError
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> l'opérateur modulo `%` sert a determiner le reste d'une division . un cas d'usage classique est quand on calcule une valeur module 2 pour verifier si le reste est 0 pour determiner si le nombre est pair ou impair
 
 ---
 
@@ -119,7 +119,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> Por tester la valeur d'une variable contre plusieurs valeurs il'est preferable d'utiliser un switch/case a la place de plusieurs if/elseif / else . c'est plus lisible et claire
 
 ---
 
