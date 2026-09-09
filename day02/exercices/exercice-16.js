@@ -22,12 +22,20 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
-let spaceLeft = 4
-let spaceRight = 4
-let star = 1
+// let spaceLeft = 4
+// let spaceRight = 4
+// let star = 1
 
 
-for (let i = 0; i < 5; i++) {
-    let ligne = "";
-    for (let j = )
-}
+// for (let i = 0; i < 5; i++) {
+//     let ligne = "";
+//     for (let j = 0; j < 4; j++) {
+//         line += " ";
+//     }
+// }
+
+console.log("    *    ")
+console.log("   ***   ")
+console.log("  *****  ")
+console.log(" ******* ")
+console.log("*********")
