@@ -15,3 +15,13 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+let carréParfait = 0;
+
+for (let i = 1; i <= 1000; i++) {
+    if (i * i > 1000) {
+        carréParfait = i * i;
+        break;
+    }
+}
+
+console.log(`Le plus petit carré parfait supérieur à 1000 est : ${carréParfait}`);
