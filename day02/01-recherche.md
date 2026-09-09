@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> la boucle `do...while` fonctionne de la mem facon q'une boucle `while` sauf qu'elle execute les instruction une premiere fois avant de tester la condition aprés ce qui peut être riquer si on ne l'utilise pas correctement
 
 ---
 
@@ -107,7 +107,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> une boucle imbriquée (nested loop) est une boucle dans une autre boucle en l'utilise quand on a besoin de travailler sur plusieur niveau d'affichage sur l'ecran par example un tableau 2D ou 3D
 
 ---
 
