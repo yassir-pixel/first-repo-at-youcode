@@ -22,3 +22,31 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+let codeSecret = "739";
+let testedValue = "000";
+let nombreEssaie = 0;
+let cracked = false;
+
+for (let i = 0; i <= 9; i++) {
+    for (let j = 0; j <= 9; j++) {
+        for (let k = 0; k <= 9; k++) {
+            testedValue = `${i}${j}${k}`; // this is the magic of things javascript is wierd
+            nombreEssaie++;
+            if (testedValue === codeSecret) {
+                cracked = true;
+                break;
+            }
+        }
+        if (cracked == true)
+            break;
+    }
+    if (cracked == true)
+        break;
+}
+
+
+if (cracked == true) {
+    console.log(`Code trouvé: ${Number(testedValue)} après ${nombreEssaie} essais`)
+}
+
