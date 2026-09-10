@@ -16,3 +16,24 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
+function sansDoublon(tableau) {
+    let nouveauTableau = [];
+
+    for (let i = 0; i < tableau.length; i++) {
+        if (nouveauTableau.includes(tableau[i]) === false) {
+            nouveauTableau.push(tableau[i]);
+        }
+    }
+    return nouveauTableau;
+}
+
+
+const tableau = [1, 2, 2, 3, 4, 4, 5];
+
+console.log(tableau);
+const nouveauTableau = sansDoublon(tableau);
+console.log(nouveauTableau);
+
+
+
+

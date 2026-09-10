@@ -15,3 +15,19 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+function transformArray(arr) {
+    let unidimention = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        for (let j = 0; j < arr[i].length; j++) {
+            unidimention.push(arr[i][j]);
+        }
+    }
+    return unidimention;
+}
+
+const tableau2dimension = [[1, 2], [3, 4], [5, 6]];
+const tableau1dimension = transformArray(tableau2dimension);
+
+console.log(tableau1dimension);

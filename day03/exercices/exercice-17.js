@@ -15,3 +15,23 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function countRepetition(arr) {
+    let count = {};
+
+    for (let i = 0; i < arr.length; i++) {
+        if (count[arr[i]]) {
+            count[arr[i]]++;
+        } else {
+            count[arr[i]] = 1;
+        }
+    }
+    return count;
+}
+
+const tableau = ["pomme", "banane", "pomme", "orange", "banane", "pomme"];
+
+console.log(tableau);
+const occurrences = countRepetition(tableau);
+console.log(occurrences);
