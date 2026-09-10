@@ -71,7 +71,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> for...of est la boucle recommendé pour iterrer sur les tableau vu qu'elle itere sur les valeur.  elle differe de for...if parceque for...if itére sur les noms de propriétés
 
 ---
 
@@ -119,7 +119,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> les tableaux sont passés par valeur , ca signifie que une nouvelle copie du tableau est créer quand elle affecter a une variable
 
 ---
 
