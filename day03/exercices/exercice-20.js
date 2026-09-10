@@ -15,3 +15,23 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+
+
+function combinePossible(tab) {
+    let combine = [];
+
+    for (let i = 0; i < tab.length; i++) {
+        for (let j = 0; j < tab.length; j++) {
+            if (i !== j) {
+                combine.push(tab[i] + '-' + tab[j]);
+            }
+        }
+    }
+    return combine;
+}
+
+
+const tableau = ["Rouge", "Vert", "Bleu"];
+
+const combine = combinePossible(tableau);
+console.log(combine);
