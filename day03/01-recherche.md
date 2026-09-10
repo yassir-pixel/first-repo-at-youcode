@@ -23,7 +23,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> Le premier élèment se trouve à l'index 0
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> push rajoute une valeur a la fin du tableau , unshift rajoute la valeur au début . toute les deux retourne le nouveau length du tableau
 
 ---
 
@@ -47,7 +47,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> pop retire une valeur a la fin du tableau , shift rretire la valeur du début . toute les deux retourne l'element retiré
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> 0 
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> en utilisant la méthode Array.isArray(variable)
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> la méthode slice
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> oui , franchement je ne sais pas du moment que maintenir une variable avec different datatype reste risque vue aue a chaque fois on doit s'assurer quelle type on utilise
 
 
 ## ✅ Validation de la recherche

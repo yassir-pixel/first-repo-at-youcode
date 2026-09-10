@@ -20,3 +20,42 @@
 
 // Découpe d'abord le problème en petites étapes.
 // TODO: écris ta solution ici.
+
+
+function ajouterAuPanier(id) {
+    panier.push(id);
+}
+
+function retirerDuPanier(id) {
+    const index = panier.indexOf(id);
+    if (index !== -1) {
+        panier.splice(index, 1);
+    }
+}
+
+function afficherQuantites() {
+    const quantites = {};
+
+    for (let i = 0; i < panier.length; i++) {
+        const id = panier[i];
+        if (quantites[id] !== undefined) {
+            quantites[id]++;
+        } else {
+            quantites[id] = 1;
+        }
+    }
+    for (const id in quantites) {
+        console.log(`Article ${id} : ${quantites[id]} exemplaires`);
+    }
+}
+
+const panier = [101, 105, 101, 102];
+
+afficherQuantites();
+// ajouterAuPanier(103);
+// retirerDuPanier(101);
+// afficherQuantites();
+// ajouterAuPanier(101);
+// afficherQuantites();
+// ajouterAuPanier(101);
+// afficherQuantites();
