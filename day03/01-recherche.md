@@ -23,7 +23,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> un paramétre c'est ce que le prototype de la fonction nous dicte de passer et l'argument c'est la valeur passer lors de l'apppel de la fonction
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> console.log() est une méthod qui nous sert a afficer sur la console du navigateur ou le terminal. return est une mot reserve pour une fonction et qui determine que la fonction doit sortir de son scoop
 
 ---
 
@@ -47,7 +47,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> quand on va essayer d'afficher la valeur quon est supposer retourner on aura valeur undefined
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> la portée (scope)  determine l'espace our la variable existe on pourra la manipuler comme on le souhaite . une variable declaré avec le keyword let n'est plus accessible en dehors des curly brackets '{}' dans lequelles elle a été declaré 
 
 ---
 
@@ -71,7 +71,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> une fonction classique se declare : function nomDeFonction(param1, param2){...instructions} et une fonction fléchée : const nomDeFonction = (param1, param2) => {...instructions} 
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> quand on a une seul instruction a executer
 
 ---
 
@@ -119,7 +119,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> oui
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> une fonction recursive est une fonction qui peut s'appeler elle même une ou plusieurs fois
 
 
 ## ✅ Validation de la recherche
