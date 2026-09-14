@@ -16,3 +16,32 @@
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
 
+function fusionnerTableaux(tab, tab2) {
+    let tableauUnifier = [];
+    let i = 0;
+    let j = 0;
+
+    while (i < tab.length && j < tab2.length) {
+        if (tab[i] < tab2[j]) {
+            tableauUnifier.push(tab[i]);
+            i++;
+        } else {
+            tableauUnifier.push(tab2[j]);
+            j++;
+        }
+    }
+
+    for (; i < tab.length; i++) {
+        tableauUnifier.push(tab[i]);
+    }
+    for (; j < tab2.length; j++) {
+        tableauUnifier.push(tab2[j]);
+    }
+    return tableauUnifier;
+}
+
+
+let tab = [1, 3, 5, 12, 20];
+let tab2 = [2, 4, 6, 8 , 19, 21];
+
+console.log(fusionnerTableaux(tab, tab2));
