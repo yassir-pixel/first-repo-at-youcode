@@ -18,26 +18,35 @@
 // TODO: écris ta solution ici.
 
 
+// const functionFibo = n => {
+//     if (n <= 1)
+//         return n
+//     else {
+//         let premier = 0;
+//         let deuxieme = 1;
+//         let suiteFibo = 0;
+//         console.log(0);
+//         console.log(1);
+//         for (let i = 0; i < n - 2; i++) {
+//             suiteFibo = premier + deuxieme;
+//             console.log(suiteFibo)
+//             premier = deuxieme;
+//             deuxieme = suiteFibo;
+//         }
+//         return suiteFibo
+//     }
+// }
+
+
+
+
 const functionFibo = n => {
-    if (n <= 1)
-        return n
-    else {
-        let premier = 0;
-        let deuxieme = 1;
-        let suiteFibo = 0;
-        console.log(0);
-        console.log(1);
-        for (let i = 0; i < n - 2; i++) {
-            suiteFibo = premier + deuxieme;
-            console.log(suiteFibo)
-            premier = deuxieme;
-            deuxieme = suiteFibo;
-        }
-        return suiteFibo
+    if (n <= 1) {
+        return n;
     }
+    return functionFibo(n - 1) + functionFibo(n - 2);
 }
 
-
-// functionFibo(0))
-//functionFibo(1))
-functionFibo(10)
+console.log(functionFibo(0));
+console.log(functionFibo(1));
+console.log(functionFibo(6));
