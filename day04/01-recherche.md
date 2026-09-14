@@ -23,7 +23,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> une chaîne de caractères (String) n'est muttable toute utilisation de function signifie que une nouvelle chaîne va être créer
 
 ---
 
@@ -47,7 +47,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> on peut utiliser split(",") pour convertir la chaine de caractére en tableau
 
 ---
 
@@ -59,7 +59,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> indexOf retourne l'index de la premiere occurence de la valeur rechercher . search en + de ce que fait indexOf elle accepte les expression regulière pour des recherche de pattern encore plus compliquer.
 
 ---
 
@@ -71,7 +71,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> elle permettent l'utilisation de l'interpolation et l'utilisation de chaînes multilignes. par expemple lutilisation de l'expression ${} ou un commentaire a plusieurs lignes.
 
 ---
 
@@ -83,7 +83,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> il ya une méthode qui s'appelle startsWith() qui retourne true ou false. 
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> la fonction trim peut nous donner le resultat attendu.
 
 ---
 
@@ -107,7 +107,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> .relace("a", "b") remplace seulement la première occurence tandis que .replaceAll("a", "b") remplacera toute les occurence de "a" par "b".
 
 ---
 
@@ -131,7 +131,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> oui bien sur , le resutat de .length sur une chaîne vide "" est 0
 
 
 ## ✅ Validation de la recherche
