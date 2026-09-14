@@ -15,3 +15,10 @@
 // 1. Identifie les données nécessaires.
 // 2. Écris ta solution sous cette ligne.
 // TODO: écris ta solution ici.
+function alarme(message, secondes) {
+    setTimeout(function() {
+        console.log(message);
+    }, secondes * 1000);
+}
+let timer = 3
+alarme(`if things are fine this will be printed after ${timer} seconds`, timer)
