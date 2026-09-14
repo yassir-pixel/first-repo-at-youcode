@@ -17,3 +17,24 @@
 // TODO: écris ta solution ici.
 
 
+var cache = {};
+
+function doSomeCalculation(value) {
+    let sum = 0;
+    if (cache[value] !== undefined) {
+        sum = cache[value];
+    } else {
+        sum = value + 10;
+        cache[value] = sum;
+    }
+    return sum;
+}
+
+let result1 = doSomeCalculation(5);
+console.log(result1);
+let result2 = doSomeCalculation(5);
+console.log(result2);
+let result3 = doSomeCalculation(10);
+console.log(result3);
+
+console.log(cache);
