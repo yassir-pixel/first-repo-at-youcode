@@ -18,11 +18,11 @@
 // TODO: écris ta solution ici.
 
 const multiplicateur = facteur => {
-    return myfunction()
+    return nombre => {
+        return nombre * facteur
+    }
 }
 
-const double = () => {
-
-}
+const double = multiplicateur(2);
 
 console.log(double(10));
