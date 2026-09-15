@@ -23,7 +23,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> quand le nom de la proprieter contient des espaces ou caractere speciales et autre cas
 
 ---
 
@@ -35,7 +35,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> on recoit undefined
 
 ---
 
@@ -95,7 +95,7 @@
 
 **Ma réponse :**
 
-> À compléter avec mes propres mots.
+> je pense que le fichier JSON mem s'il ressemble a un objet javascript classique . il sert unique a representer la DATA par exemple on va pas definir une fonction a l'interieur d'un fichier JSON au contraire d'un objet javascript classique
 
 ---
 
